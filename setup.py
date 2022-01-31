@@ -92,6 +92,7 @@ setup(
     include_package_data=True,
     license='BSD',
     long_description=readme,
+    long_description_content_type='text/markdown',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
