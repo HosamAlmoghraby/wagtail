@@ -91,12 +91,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     license='BSD',
-    long_description="Wagtail is an open source content management \
-system built on Django, with a strong community and commercial support. \
-It’s focused on user experience, and offers precise control for \
-designers and developers.\n\n\
-For more details, see https://wagtail.io, https://docs.wagtail.org and \
-https://github.com/wagtail/wagtail/.",
+    long_description=readme,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
