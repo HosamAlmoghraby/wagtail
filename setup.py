@@ -9,6 +9,8 @@ try:
 except ImportError:
     from distutils.core import setup
 
+with open('README.md', encoding='utf-8') as readme_file:
+    readme = readme_file.read()
 
 # Hack to prevent "TypeError: 'NoneType' object is not callable" error
 # in multiprocessing/util.py _exit_function when setup.py exits
